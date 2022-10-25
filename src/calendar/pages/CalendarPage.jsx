@@ -14,12 +14,15 @@ const events = [{
   notes: 'Hay que comprar el pastel',
   start: new Date(),
   end: addHours(new Date(), 2),
-  bgColor: '#fafafa',
+  bgColor: '#FAFAFA',
   user: {
     _id: '123',
     name: 'Fernando'
   }
-}]
+},
+]
+
+console.log(new Date());
 
 export const CalendarPage = () => {
 
