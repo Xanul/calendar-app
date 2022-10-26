@@ -38,3 +38,15 @@
   outline: none;
   padding: 10px;
 }
+
+/* Fabs */
+.fab {
+  border-radius: 100%;
+  bottom: 30px;
+  font-size: 25px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding: auto;
+  position: fixed;
+  right: 40px;
+}
