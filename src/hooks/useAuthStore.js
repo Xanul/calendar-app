@@ -7,6 +7,7 @@ import { onLogoutCalendar } from "../store/calendar/calendarSlice";
 
 export const useAuthStore = () => {
 
+  
   const dispatch = useDispatch()
   const { status, user, errorMessage } = useSelector( state => state.auth )
 
